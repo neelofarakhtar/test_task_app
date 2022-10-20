@@ -1,0 +1,6 @@
+<%= form_with model: @task do |f| %>
+		<%= f.label :task_name %>
+		<%= f.text_field :task_name ,placeholder: "Enter Task Name"%>
+		<%= f.submit%>
+	<br>
+	<% end %>
